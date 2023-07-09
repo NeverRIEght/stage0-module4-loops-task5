@@ -11,7 +11,6 @@ public class Hourglass {
 
             int sideCenter = -1;
             sideCenter = height / 2 - 1;
-            System.out.println(sideCenter);
 
             for(int i = 0; i < height; i++) {
                 if(i == 0 || i == height - 1) {
@@ -92,7 +91,6 @@ public class Hourglass {
 
             int sideCenter = -1;
             sideCenter = height / 2;
-            System.out.println(sideCenter);
 
             for(int i = 0; i < height; i++) {
                 if(i == 0 || i == height - 1) {
